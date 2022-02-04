@@ -41,7 +41,9 @@
 
 [这个时候我们又不得不拿出那个之前聊过的概念：**负频率**。](https://mp.weixin.qq.com/s?__biz=MzkwNTEyOTI0MA==&mid=2247484324&idx=1&sn=2fb52ceec9303054b45db8ec66bd150f&exportkey=AfFOieaGiwgqlNxPM%2F3h8TY%3D&acctmode=0&pass_ticket=5CY3hrn2C8xVOucjg4uhfM6kZgBWn6FDn0Pqm4rTYN%2BUpKgq9kXr0ADRt4glwEqv&wx_header=0)
 
-在上两图中，四个点的频域数据，2HZ和-2Hz是一回事，3Hz和-1Hz也是一回事。就像观察一座山，3Hz是顺时针，分别从东南西北去观察，-1Hz是逆时针，分别从东北西南方向去看而已。
+在上两图中，四个点的频域数据，2HZ和-2Hz是一回事，3Hz和-1Hz也是一回事。
+
+就像观察一座山，3Hz是顺时针，沿着东南西北方向去观察，-1Hz是逆时针，分别从东北西南方向去看。但是3Hz每次转换方向时，步进是三个方向，一开始是东，顺时针转动三个方向变成了北，再转动三次变成了西，最后变成了南，最后也是东北西南四个方向观察，那么-1Hz是逆时针步进一个方向，也是东北西南。
 
 在DFT/FFT计算**3Hz**时，根据DFT的公式，会计算相位点(数字都会乘以2pi，为方便显示，以下省略2pi)：
 [0，-3/4,  -6/4， -9/4]。该序列可以看作是，顺时针依次递增3/4个2pi。所以它可以看做是3Hz。
