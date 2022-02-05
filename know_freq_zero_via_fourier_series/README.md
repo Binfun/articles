@@ -39,7 +39,7 @@
 
 **在实践过程中，对FFT后的频域结果，如果要补零则是补在中间（高频补零），再进行IFFT(逆傅里叶变换)转成时域。** 知道这句话则足够了，以下内容，则是我对于这个现象的朴素的解释。
 
-[这个时候我们又不得不拿出那个之前聊过的概念：**负频率**。](https://mp.weixin.qq.com/s?__biz=MzkwNTEyOTI0MA==&mid=2247484324&idx=1&sn=2fb52ceec9303054b45db8ec66bd150f&exportkey=AfFOieaGiwgqlNxPM%2F3h8TY%3D&acctmode=0&pass_ticket=5CY3hrn2C8xVOucjg4uhfM6kZgBWn6FDn0Pqm4rTYN%2BUpKgq9kXr0ADRt4glwEqv&wx_header=0)
+[这个时候我们又不得不拿出那个之前聊过的概念：**负频率**。](https://mp.weixin.qq.com/s/J5cj4tnjEa-uFzWaGJghtQ)
 
 在上两图中，四个点的频域数据，2HZ和-2Hz是一回事，3Hz和-1Hz也是一回事。
 
